@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang = "en-US">
+<html>
+    <head>
+		<title> Courses | Add courses </title>
+	    <link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+	    <main>
+	    <nav class="navigator-bar">
+		    <ul>
+			  <li><img src="images/logo.PNG" alt="logo" width="50"></li>
+		      <li><a href="index.html" class="button"> Home </a></li>
+			  <li><a href="courses.html" class="button"> Courses </a></li>
+			  <li><a href="teachers.html" class="button"> Teachers </a></li>
+			  <li><a href="add-courses.html" class="button active"> Add courses </a></li>
+			  <li><a href="dashboard.html" class="button"> Dashboard </a></li>
+			  <li><a href="about.html" class="button"> About page </a></li>
+			  <li><a href="log-in.html" class="button"> Log in  </a></li>
+			  <li><a href="contact.html" class="button"> Contact us </a></li>
+			  
+			  
+			  <li><button id="theme-toggle" class="button">⚙️ Switch Theme</button></li>
+			  
+			</ul>
+		</nav>
+		
+		
+		<section class="add-courses-section">
+			<h1 class="page-title">Course Registration</h1>
+    
+			<table id="subjectsTable">
+			<thead>
+				<tr>
+					<th>Subject Name</th>
+					<th>Select</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Artificial Intelligence -->
+				<tr><td>Introduction to AI</td><td><input type="checkbox" class="subject-check" value="Introduction to AI"></td></tr>
+				<tr><td>Machine Learning Basics</td><td><input type="checkbox" class="subject-check" value="Machine Learning Basics"></td></tr>
+				<tr><td>Deep Learning</td><td><input type="checkbox" class="subject-check" value="Deep Learning"></td></tr>
+				<tr><td>Natural Language Processing</td><td><input type="checkbox" class="subject-check" value="Natural Language Processing"></td></tr>
+				<tr><td>Computer Vision</td><td><input type="checkbox" class="subject-check" value="Computer Vision"></td></tr>
+
+				<!-- Cyber Security -->
+				<tr><td>Introduction to Cyber Security</td><td><input type="checkbox" class="subject-check" value="Introduction to Cyber Security"></td></tr>
+				<tr><td>Network Security</td><td><input type="checkbox" class="subject-check" value="Network Security"></td></tr>
+				<tr><td>Ethical Hacking</td><td><input type="checkbox" class="subject-check" value="Ethical Hacking"></td></tr>
+				<tr><td>Cryptography</td><td><input type="checkbox" class="subject-check" value="Cryptography"></td></tr>
+				<tr><td>Digital Forensics</td><td><input type="checkbox" class="subject-check" value="Digital Forensics"></td></tr>
+		
+				<!-- Data Science -->
+				<tr><td>Data Analysis with Python</td><td><input type="checkbox" class="subject-check" value="Data Analysis with Python"></td></tr>
+				<tr><td>Statistics for Data Science</td><td><input type="checkbox" class="subject-check" value="Statistics for Data Science"></td></tr>
+				<tr><td>Data Visualization</td><td><input type="checkbox" class="subject-check" value="Data Visualization"></td></tr>
+				<tr><td>Big Data Fundamentals</td><td><input type="checkbox" class="subject-check" value="Big Data Fundamentals"></td></tr>
+				<tr><td>Data Mining</td><td><input type="checkbox" class="subject-check" value="Data Mining"></td></tr>
+
+				<!-- Software Engineering -->
+				<tr><td>Software Development Life Cycle</td><td><input type="checkbox" class="subject-check" value="Software Development Life Cycle"></td></tr>
+				<tr><td>Object-Oriented Programming</td><td><input type="checkbox" class="subject-check" value="Object-Oriented Programming"></td></tr>
+				<tr><td>Design Patterns</td><td><input type="checkbox" class="subject-check" value="Design Patterns"></td></tr>
+				<tr><td>Testing and Debugging</td><td><input type="checkbox" class="subject-check" value="Testing and Debugging"></td></tr>
+				<tr><td>Agile Methodologies</td><td><input type="checkbox" class="subject-check" value="Agile Methodologies"></td></tr>
+	
+				<!-- Web Development -->
+				<tr><td>HTML & CSS Basics</td><td><input type="checkbox" class="subject-check" value="HTML & CSS Basics"></td></tr>
+				<tr><td>JavaScript Fundamentals</td><td><input type="checkbox" class="subject-check" value="JavaScript Fundamentals"></td></tr>
+				<tr><td>Frontend Frameworks</td><td><input type="checkbox" class="subject-check" value="Frontend Frameworks"></td></tr>
+				<tr><td>Backend Development</td><td><input type="checkbox" class="subject-check" value="Backend Development"></td></tr>
+				<tr><td>Full Stack Projects</td><td><input type="checkbox" class="subject-check" value="Full Stack Projects"></td></tr>
+			</tbody>
+		</table>
+
+			<div class="register-container">
+			 <button class="button auth-btn" onclick="saveSubjects()">Register</button>
+			</div>
+		</section>
+
+		</main>
+		<footer class="main-footer">
+		    <div class="footer-content">
+              <p>&copy;  All rights reserved.</p>
+              <div class="footer-links">
+               <a href="#" class="button">Twitter</a>
+               <a href="#" class="button">GitHub</a>
+               <a href="mailto:example@email.com" class="button">Contact</a>
+              </div>
+            </div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+
+
+
+
+</html>
